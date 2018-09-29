@@ -5,9 +5,13 @@
 module.exports = app => {
 	app.log('Yay, the app was loaded!')
 	app.on('issues.opened', async (ctx) => {
-		return ctx.github.issues.creLabels(
+		return ctx.github.issues.addLabels(
 			ctx.issue({
-				labels: ['Hacktoberfest']
+				labels: [{
+					name: 'Hacktoberfest',
+					description: 'https://hacktoberfest.digitalocean.com',
+					color: '#21ffff'
+				}]
 			})
 		)
 	})
