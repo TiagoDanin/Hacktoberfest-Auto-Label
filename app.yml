@@ -124,15 +124,15 @@ default_permissions:
 
 # The name of the GitHub App. Defaults to the name specified in package.json
 # name: My Probot App
-name: Hacktoberfest bot
+name: Hacktoberfest Auto Label Bot
 
 # The homepage of your GitHub App.
 # url: https://example.com/
-url: https://github.com/TiagoDanin/hacktoberfest-bot
+url: http://TiagoDanin.github.io/Hacktoberfest-Auto-Label
 
 # A description of the GitHub App.
 # description: A description of my awesome app
-description: A Probot app
+description: Add label "Hacktoberfest" in new issues.
 
 # Set to true when your GitHub App is available to the public or false when it is only accessible to the owner of the app.
 # Default: true

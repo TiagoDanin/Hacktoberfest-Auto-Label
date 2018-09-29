@@ -29,11 +29,6 @@
   "engines": {
     "node": ">= 9"
   },
-  "standard": {
-    "env": [
-      "jest"
-    ]
-  },
   "jest": {
     "testEnvironment": "node"
   },
