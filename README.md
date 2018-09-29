@@ -2,6 +2,12 @@
 
 Add label &#39;Hacktoberfest&#39; in new issues.
 
+## Public App
+
+- [github.com/apps/hacktoberfest-auto-label](https://github.com/apps/hacktoberfest-auto-label)
+
+**NOTE:** Available only during the [#Hacktoberfest](https://hacktoberfest.digitalocean.com).
+
 ## Setup
 
 ```sh
