@@ -2,6 +2,8 @@
 
 Add label &#39;Hacktoberfest&#39; in new issues.
 
+![image](https://user-images.githubusercontent.com/5731176/46247590-047c1280-c3e4-11e8-97ce-4155445dd609.png)
+
 ## Public App
 
 - [github.com/apps/hacktoberfest-auto-label](https://github.com/apps/hacktoberfest-auto-label)
