@@ -1,4 +1,4 @@
-# Hacktoberfest Auto Label Bot
+# [Hacktoberfest Auto Label Bot](https://github.com/apps/hacktoberfest-auto-label) [![Build Status](https://travis-ci.org/TiagoDanin/Hacktoberfest-Auto-Label.svg?branch=master)](https://travis-ci.org/TiagoDanin/Hacktoberfest-Auto-Label)
 
 Add label &#39;Hacktoberfest&#39; in new issues.
 
