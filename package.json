@@ -1,12 +1,12 @@
 {
-  "name": "hacktoberfest-bot",
+  "name": "hacktoberfest-auto-label-bot",
   "version": "1.0.0",
-  "description": "A Probot app",
-  "author": "TiagoDanin <TiagoDanin@outlook.com> (http://tiagodanin.github.io/Hacktoberfest-Bot)",
+  "description": "Add label 'Hacktoberfest' in new issues.",
+  "author": "TiagoDanin <TiagoDanin@outlook.com>",
   "license": "MIT",
-  "repository": "https://github.com/TiagoDanin/hacktoberfest-bot.git",
-  "homepage": "https://github.com/TiagoDanin/hacktoberfest-bot",
-  "bugs": "https://github.com/TiagoDanin/hacktoberfest-bot/issues",
+  "repository": "https://github.com/TiagoDanin/Hacktoberfest-Auto-Label.git",
+  "homepage": "http://TiagoDanin.github.io/Hacktoberfest-Auto-Label",
+  "bugs": "https://github.com/TiagoDanin/Hacktoberfest-Auto-Label/issues",
   "keywords": [
     "probot",
     "github",
@@ -15,21 +15,19 @@
   "scripts": {
     "dev": "nodemon",
     "start": "probot run ./index.js",
-    "lint": "standard --fix",
-    "test": "jest && standard",
+    "test": "jest",
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
-    "probot": "^7.2.0"
+    "probot": "7.0.1"
   },
   "devDependencies": {
-    "jest": "^22.4.3",
-    "nodemon": "^1.17.2",
-    "smee-client": "^1.0.2",
-    "standard": "^10.0.3"
+    "jest": "22.4.3",
+    "nodemon": "1.17.2",
+    "smee-client": "1.0.2"
   },
   "engines": {
-    "node": ">= 8.3.0"
+    "node": ">= 9"
   },
   "standard": {
     "env": [
