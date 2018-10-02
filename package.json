@@ -1,6 +1,6 @@
 {
   "name": "hacktoberfest-auto-label-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add label 'Hacktoberfest' in new issues.",
   "author": "TiagoDanin <TiagoDanin@outlook.com>",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
-    "probot": "7.0.1"
+    "probot": "7.2.0"
   },
   "devDependencies": {
     "jest": "22.4.3",

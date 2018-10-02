@@ -10,7 +10,7 @@ describe('Hacktoberfest Auto Label Bot', () => {
 		app.load(myProbotApp)
 		github = {
 			issues: {
-				createComment: jest.fn().mockReturnValue(Promise.resolve({}))
+				addLabels: jest.fn().mockReturnValue(Promise.resolve({}))
 			}
 		}
 		app.auth = () => Promise.resolve(github)
@@ -21,5 +21,6 @@ describe('Hacktoberfest Auto Label Bot', () => {
 			name: 'issues.opened',
 			payload: issuesOpenedPayload
 		})
+		expect(github.issues.addLabels).toHaveBeenCalled()
 	})
 })
