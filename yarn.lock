@@ -987,9 +987,9 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@~6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
+dotenv@~7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
 
 dtrace-provider@~0.8:
   version "0.8.7"
@@ -3310,9 +3310,9 @@ private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-9.0.0.tgz#ff1fc25c87980d1939ab8e616205c3a55e1ace6f"
+probot@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-9.0.1.tgz#bcae1d0a50b8771ec59fe6a7038ebf5329eb0310"
   dependencies:
     "@octokit/app" "^2.1.0"
     "@octokit/graphql" "2.0.1"
@@ -3328,7 +3328,7 @@ probot@9.0.0:
     bunyan-sentry-stream "^1.1.0"
     cache-manager "^2.4.0"
     commander "^2.19.0"
-    dotenv "~6.2.0"
+    dotenv "~7.0.0"
     eventsource "^1.0.7"
     express "^4.16.2"
     express-async-errors "^3.0.0"
