@@ -33,11 +33,21 @@
     universal-user-agent "^2.0.1"
     url-template "^2.0.8"
 
-"@octokit/graphql@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@octokit/graphql/-/graphql-2.0.1.tgz#0e9d7f41d6ac3305f37767e723183bd0b77af7d2"
+"@octokit/endpoint@^3.2.0":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@octokit/endpoint/-/endpoint-3.2.3.tgz#bd9aea60cd94ce336656b57a5c9cb7f10be8f4f3"
   dependencies:
-    "@octokit/request" "^2.1.2"
+    deepmerge "3.2.0"
+    is-plain-object "^2.0.4"
+    universal-user-agent "^2.0.1"
+    url-template "^2.0.8"
+
+"@octokit/graphql@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@octokit/graphql/-/graphql-2.0.2.tgz#c282af5e418432b123e039f751725fe39573033a"
+  dependencies:
+    "@octokit/request" "^2.4.0"
+    universal-user-agent "^2.0.3"
 
 "@octokit/plugin-enterprise-compatibility@^1.0.0":
   version "1.1.0"
@@ -60,6 +70,17 @@
   resolved "https://registry.yarnpkg.com/@octokit/request/-/request-2.4.1.tgz#98c4d6870e4abe3ccdd2b9799034b4ae3f441c30"
   dependencies:
     "@octokit/endpoint" "^3.1.1"
+    deprecation "^1.0.1"
+    is-plain-object "^2.0.4"
+    node-fetch "^2.3.0"
+    once "^1.4.0"
+    universal-user-agent "^2.0.1"
+
+"@octokit/request@^2.4.0":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-2.4.2.tgz#87c36e820dd1e43b1629f4f35c95b00cd456320b"
+  dependencies:
+    "@octokit/endpoint" "^3.2.0"
     deprecation "^1.0.1"
     is-plain-object "^2.0.4"
     node-fetch "^2.3.0"
@@ -3310,12 +3331,12 @@ private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-9.0.1.tgz#bcae1d0a50b8771ec59fe6a7038ebf5329eb0310"
+probot@9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-9.0.2.tgz#9906a265ff62e17ce875a5776573a1a2cb5b700e"
   dependencies:
     "@octokit/app" "^2.1.0"
-    "@octokit/graphql" "2.0.1"
+    "@octokit/graphql" "2.0.2"
     "@octokit/plugin-enterprise-compatibility" "^1.0.0"
     "@octokit/plugin-retry" "^2.1.1"
     "@octokit/plugin-throttling" "^2.3.0"
@@ -4156,7 +4177,7 @@ universal-user-agent@^2.0.0:
   dependencies:
     os-name "^2.0.1"
 
-universal-user-agent@^2.0.1:
+universal-user-agent@^2.0.1, universal-user-agent@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/universal-user-agent/-/universal-user-agent-2.0.3.tgz#9f6f09f9cc33de867bb720d84c08069b14937c6c"
   dependencies:
