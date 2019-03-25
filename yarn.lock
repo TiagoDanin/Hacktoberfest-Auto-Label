@@ -3331,9 +3331,9 @@ private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-9.0.2.tgz#9906a265ff62e17ce875a5776573a1a2cb5b700e"
+probot@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-9.1.0.tgz#86d0fcfa43fcae27b21ae524482f15918677b127"
   dependencies:
     "@octokit/app" "^2.1.0"
     "@octokit/graphql" "2.0.2"
