@@ -2364,7 +2364,14 @@ js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.7.0, js-yaml@^3.9.1:
+js-yaml@^3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+js-yaml@^3.7.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
@@ -3349,9 +3356,9 @@ private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
-probot@9.2.5:
-  version "9.2.5"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-9.2.5.tgz#699097d57fba34a4be67234871db2662197253ed"
+probot@9.2.6:
+  version "9.2.6"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-9.2.6.tgz#2544b962f6ea016ac7bb81b5d5f5fd1ff6d02dc2"
   dependencies:
     "@octokit/app" "^2.2.4"
     "@octokit/graphql" "2.1.1"
@@ -3374,7 +3381,7 @@ probot@9.2.5:
     hbs "^4.0.3"
     ioredis "^4.5.1"
     is-base64 "0.1.0"
-    js-yaml "^3.9.1"
+    js-yaml "^3.13.1"
     jsonwebtoken "^8.1.0"
     octokit-pagination-methods "1.1.0"
     pkg-conf "^3.0.0"
