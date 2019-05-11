@@ -1,42 +1,42 @@
 {
-  "name": "hacktoberfest-auto-label-bot",
-  "version": "1.0.1",
-  "description": "Add label 'Hacktoberfest' in new issues.",
-  "author": "TiagoDanin <TiagoDanin@outlook.com>",
-  "license": "MIT",
-  "repository": "https://github.com/TiagoDanin/Hacktoberfest-Auto-Label.git",
-  "homepage": "http://TiagoDanin.github.io/Hacktoberfest-Auto-Label",
-  "bugs": "https://github.com/TiagoDanin/Hacktoberfest-Auto-Label/issues",
-  "keywords": [
-    "probot",
-    "github",
-    "probot-app"
-  ],
-  "scripts": {
-    "dev": "nodemon",
-    "start": "probot run ./index.js",
-    "test": "jest",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
-  },
-  "dependencies": {
-    "probot": "9.2.6"
-  },
-  "devDependencies": {
-    "jest": "23.6.0",
-    "nodemon": "1.19.0",
-    "smee-client": "1.1.0"
-  },
-  "engines": {
-    "node": ">= 9"
-  },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "nodemonConfig": {
-    "exec": "npm start",
-    "watch": [
-      ".env",
-      "."
-    ]
-  }
+	"name": "hacktoberfest-auto-label-bot",
+	"version": "1.0.1",
+	"description": "Add label 'Hacktoberfest' in new issues.",
+	"author": "TiagoDanin <TiagoDanin@outlook.com>",
+	"license": "MIT",
+	"repository": "https://github.com/TiagoDanin/Hacktoberfest-Auto-Label.git",
+	"homepage": "http://TiagoDanin.github.io/Hacktoberfest-Auto-Label",
+	"bugs": "https://github.com/TiagoDanin/Hacktoberfest-Auto-Label/issues",
+	"keywords": [
+		"probot",
+		"github",
+		"probot-app"
+	],
+	"scripts": {
+		"dev": "nodemon",
+		"start": "probot run ./index.js",
+		"test": "jest",
+		"test:watch": "jest --watch --notify --notifyMode=change --coverage"
+	},
+	"dependencies": {
+		"probot": "9.2.6"
+	},
+	"devDependencies": {
+		"jest": "23.6.0",
+		"nodemon": "^1.19.0",
+		"smee-client": "1.1.0"
+	},
+	"engines": {
+		"node": ">= 9"
+	},
+	"jest": {
+		"testEnvironment": "node"
+	},
+	"nodemonConfig": {
+		"exec": "npm start",
+		"watch": [
+			".env",
+			"."
+		]
+	}
 }
