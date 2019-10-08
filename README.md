@@ -35,7 +35,7 @@ npm test
 
 - [jest](https://ghub.io/jest): Delightful JavaScript Testing.
 - [nodemon](https://ghub.io/nodemon): Simple monitor script for use during development of a node.js app.
-- [smee-client](https://ghub.io/smee-client): Client to proxy webhooks to local hos
+- [smee-client](https://ghub.io/smee-client): Client to proxy webhooks to local host
 
 ## Contributing
 
