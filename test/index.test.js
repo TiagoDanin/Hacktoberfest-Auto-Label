@@ -1,10 +1,11 @@
-const { Application } = require('probot')
+/* eslint-disable no-undef */
+const {Application} = require('probot')
+const issuesOpenedPayload = require('./fixtures/issues.opened.json')
 const myProbotApp = require('..')
 
-const issuesOpenedPayload = require('./fixtures/issues.opened.json')
-
 describe('Hacktoberfest Auto Label Bot', () => {
-	let app, github
+	let app
+	let github
 	beforeEach(() => {
 		app = new Application()
 		app.load(myProbotApp)

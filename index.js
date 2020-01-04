@@ -4,7 +4,7 @@
  */
 module.exports = app => {
 	app.log('Yay, the app is loaded!')
-	app.on('issues.opened', async (ctx) => {
+	app.on('issues.opened', async ctx => {
 		return ctx.github.issues.addLabels(
 			ctx.issue({
 				labels: ['Hacktoberfest']
