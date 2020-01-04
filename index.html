@@ -81,38 +81,62 @@ baseURL: https://tiagodanin.github.io
 
 
 <div class="uk-container">
-	<h1 id="hacktoberfest-auto-label-bot-build-status"><a href="#hacktoberfest-auto-label-bot-build-status"><a href="https://github.com/apps/hacktoberfest-auto-label">Hacktoberfest Auto Label Bot</a> <a href="https://travis-ci.org/TiagoDanin/Hacktoberfest-Auto-Label"><img src="https://travis-ci.org/TiagoDanin/Hacktoberfest-Auto-Label.svg?branch=master" alt="Build Status"></a></a></h1>
+	<h1 id="name"><a href="#name">NAME</a></h1>
+<p><a href="https://travis-ci.org/TiagoDanin/NAME"><img src="https://img.shields.io/travis/TiagoDanin/NAME.svg?branch=master&#x26;style=flat-square" alt="Travis"></a> <a href="https://npmjs.org/package/hacktoberfest-auto-label-bot"><img src="https://img.shields.io/npm/dt/hacktoberfest-auto-label-bot.svg?style=flat-square" alt="Downloads"></a> <a href="https://npmjs.org/package/hacktoberfest-auto-label-bot"><img src="https://img.shields.io/node/v/hacktoberfest-auto-label-bot.svg?style=flat-square" alt="Node"></a> <a href="https://npmjs.org/package/hacktoberfest-auto-label-bot"><img src="https://img.shields.io/npm/v/hacktoberfest-auto-label-bot.svg?style=flat-square" alt="Version"></a> <a href="https://github.com/xojs/xo"><img src="https://img.shields.io/badge/code%20style-XO-red.svg?style=flat-square" alt="XO code style"></a> </p>
 <p>Add label 'Hacktoberfest' in new issues.</p>
+<h2 id="installation"><a href="#installation">Installation</a></h2>
+<p>Module available through the <a href="https://www.npmjs.com/">npm registry</a>. It can be installed using the <a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"><code>npm</code></a> or <a href="https://yarnpkg.com/en/"><code>yarn</code></a> command line tool.</p>
+<pre><code class="hljs language-sh"><span class="hljs-comment"># Yarn (Recomend)</span>
+yarn add hacktoberfest-auto-label-bot
+<span class="hljs-comment"># NPM </span>
+npm install hacktoberfest-auto-label-bot --save</code></pre>
+<h2 id="documentation"><a href="#documentation">Documentation</a></h2>
+<h3 id="public-app"><a href="#public-app">Public App</a></h3>
 <p><img src="https://user-images.githubusercontent.com/5731176/46247590-047c1280-c3e4-11e8-97ce-4155445dd609.png" alt="image"></p>
-<h2 id="public-app"><a href="#public-app">Public App</a></h2>
 <ul>
 <li><a href="https://github.com/apps/hacktoberfest-auto-label">github.com/apps/hacktoberfest-auto-label</a></li>
 </ul>
 <p><strong>NOTE:</strong> Available only during the <a href="https://hacktoberfest.digitalocean.com">#Hacktoberfest</a>.</p>
-<h2 id="setup"><a href="#setup">Setup</a></h2>
-<pre><code class="hljs language-sh"><span class="hljs-comment"># Install dependencies</span>
-npm install
-
-<span class="hljs-comment"># Run the bot</span>
-npm start</code></pre>
 <h2 id="tests"><a href="#tests">Tests</a></h2>
-<pre><code class="hljs language-sh">npm install --save-dev
-npm <span class="hljs-built_in">test</span></code></pre>
+<p>To run the test suite, first install the dependencies, then run <code>test</code>:</p>
+<pre><code class="hljs language-sh"><span class="hljs-comment"># Using Yarn</span>
+yarn <span class="hljs-built_in">test</span></code></pre>
 <h2 id="dependencies"><a href="#dependencies">Dependencies</a></h2>
-<ul>
-<li><a href="https://ghub.io/probot">probot</a>: 🤖 A framework for building GitHub Apps to automate and improve your workflow</li>
-</ul>
+<details>
+	<summary><a href="https://ghub.io/probot">probot</a>: 🤖 A framework for building GitHub Apps to automate and improve your workflow</summary>
+	<b>Author</b>: Brandon Keepers</br>
+	<b>License</b>: ISC</br>
+	<b>Version</b>: 9.8.1
+</details>
 <h2 id="dev-dependencies"><a href="#dev-dependencies">Dev Dependencies</a></h2>
-<ul>
-<li><a href="https://ghub.io/jest">jest</a>: Delightful JavaScript Testing.</li>
-<li><a href="https://ghub.io/nodemon">nodemon</a>: Simple monitor script for use during development of a node.js app.</li>
-<li><a href="https://ghub.io/smee-client">smee-client</a>: Client to proxy webhooks to local host</li>
-</ul>
-<h2 id="contributing"><a href="#contributing">Contributing</a></h2>
-<p>If you have suggestions for how Hacktoberfest-Auto-Label could be improved, or want to report a bug, open an issue! We'd love all and any contributions.</p>
-<p>For more, check out the <a href="CONTRIBUTING.md">Contributing Guide</a>.</p>
+<details>
+	<summary><a href="https://ghub.io/jest">jest</a>: Delightful JavaScript Testing.</summary>
+	<b>Author</b>: scotthovestadt, rubennorte, cpojer, fb, aaronabramov</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: 23.6.0
+</details>
+<details>
+	<summary><a href="https://ghub.io/nodemon">nodemon</a>: Simple monitor script for use during development of a node.js app.</summary>
+	<b>Author</b>: Remy Sharp</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.0.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/smee-client">smee-client</a>: Client to proxy webhooks to local host</summary>
+	<b>Author</b>: bkeepers</br>
+	<b>License</b>: ISC</br>
+	<b>Version</b>: 1.1.0
+</details>
+<details>
+	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript linter with great defaults</summary>
+	<b>Author</b>: Sindre Sorhus</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.24.0
+</details>
+<h2 id="contributors"><a href="#contributors">Contributors</a></h2>
+<p>Pull requests and stars are always welcome. For bugs and feature requests, please <a href="https://github.com/TiagoDanin/NAME/issues">create an issue</a>. <a href="https://github.com/TiagoDanin/NAME/graphs/contributors">List of all contributors</a>.</p>
 <h2 id="license"><a href="#license">License</a></h2>
-<p><a href="LICENSE">MIT</a> © 2018 TiagoDanin <a href="mailto:TiagoDanin@outlook.com">TiagoDanin@outlook.com</a> (<a href="http://tiagodanin.github.io/Hacktoberfest-Auto-Label">http://tiagodanin.github.io/Hacktoberfest-Auto-Label</a>)</p>
+<p><a href="LICENSE">MIT</a> © <a href="https://TiagoDanin.github.io">Tiago Danin</a></p>
 
 
 	<hr class="uk-margin-top-remove uk-divider-icon">
