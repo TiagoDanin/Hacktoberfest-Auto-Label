@@ -2,7 +2,7 @@
 	"name": "hacktoberfest-auto-label-bot",
 	"main": "index.js",
 	"preferGlobal": false,
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Add label 'Hacktoberfest' in new issues.",
 	"author": {
 		"email": "TiagoDanin@outlook.com",
