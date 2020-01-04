@@ -4,6 +4,11 @@
 	"preferGlobal": false,
 	"version": "1.0.1",
 	"description": "Add label 'Hacktoberfest' in new issues.",
+	"author": {
+		"email": "TiagoDanin@outlook.com",
+		"name": "Tiago Danin",
+		"url": "https://TiagoDanin.github.io"
+	},
 	"license": "MIT",
 	"keywords": [
 		"github",
