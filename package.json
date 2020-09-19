@@ -44,7 +44,7 @@
 		"package.json"
 	],
 	"dependencies": {
-		"probot": "9.13.0"
+		"probot": "10.8.0"
 	},
 	"devDependencies": {
 		"jest": "26.4.0",
